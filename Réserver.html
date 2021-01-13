@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="discription" content="Cinéma en plein air !">
+        <link href="style.css" rel="stylesheet">
+        <title>Les Films en Plein Air</title>
+    </head>
+    <body>
+        <header  class="topbar">
+                    <nav >
+                        <a href="index.html" title="Accueil">Accueil</a>
+                        <a href="Films.html" title="voir les films">Films</a>
+                        <a href="Réserver.html" title="réserver vos séances">Réservation</a>
+                        <a href="Contact.html" title="nous contactez"> Contact</a>
+                    </nav>
+                    <div class="social">
+                        <a href="#" title="facebook"><img src="img\logo\facebook.png" title="facebook"></a>
+                        <a href="#" title="twitter"><img src="img\logo\twitter.png" title="twitter"></a>
+                    </div>
+       </header>
+   
+        <div class="banniere">
+                    
+        </div>
+        <main class="main">
+                <div class=>
+                    <h2 class="">Réserver vos places ! </h2>
+                    <form action="Réserver.html" class="check">
+                            <div>
+                                <label for="firstname">votre nom</label>
+                                <input type="text" required id="firstname" name="firstname">
+                            </div>
+                            <div>
+                                <label for="lastname">votre prenom</label>
+                                <input type="text" required id="lastname" name="lastname">
+                                </div>
+                            <div>
+                                <label for="email">votre email</label>
+                                <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+                            </div>
+                            <div>
+                                <label for="phone">votre télephone</label>
+                                <input type="tel" id="phone" name="phone"
+                                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Format: 123-456-7890">
+                            </div>
+                            <div>
+                                <label for="menu">choix de séance</label>
+                                <select name="meet" id="meet">
+                                    <option value="">--Veuillez choisir une séance--</option>
+                                    <option value="first">--De 18:00 à 20:00--</option>
+                                    <option value="second">--De 20:00 à 22:00--</option>
+                                    <option value="third">--De 22:00 à 00:00--</option>
+                                    
+                                </select>
+                            </div>
+                            <div>
+                            <input type="submit" value="Réserver">
+                        </div>
+                    </form>
+                </div> 
+        </main>
+        <aside class="reserver">
+            <div class="prog">
+                <h4>Nos Projections</h4>
+                        <ul>
+                            <li>
+                                <a href="Films.html" title="1ere jour">Programme du 5 aout</a>
+                            </li>
+                            <li>
+                                <a href="Films.html" title="2eme jour">Programme du 6 aout</a>
+                            </li>
+                            <li>
+                                <a href="Films.html" title="3eme jour">Programme du 7 aout</a>
+                            </li>
+                            <li>
+                                <a href="Films.html" title="4eme jour">Programme du 8 aout</a>
+                            </li>
+                        </ul>
+                        
+            </div>
+            
+            <div class="contact">
+                <h4>ou nous trouvez</h4>
+                <ul>
+                    <li>
+                        Lieu des projections : Parc Monceau 
+                    </li>
+                    <li>
+                        Address : 35 Boulevard de Courcelles
+                    </li>
+                    <li>
+                        75008 Paris
+                    </li>
+                    <li>
+                        <a href="https://www.google.fr/maps/place/Parc+Monceau/@48.8796835,2.3067663,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fbe98f714c3:0xe62425fddeddc402!8m2!3d48.8796835!4d2.308955" title="Map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737382034933!2d2.306766315630278!3d48.87968347928967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1610483857525!5m2!1sfr!2sfr" width="308" height="175" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.film-plein-air.org" title="4eme jour" target="_blank">Site web : www.film-plein-air.org </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            
+        </aside>
+  
+        <footer class="footer">
+            <p>Tous droits réservés © Les films de Plein Air 2020</p>
+            
+
+        </footer> 
+        </footer>
+    
+    
+    </body>
+</html>

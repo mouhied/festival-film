@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(0,0, 0,.87);
+    line-height: 1.6;
+    
+
+}
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    padding: 30px; 
+
+}
+.topbar nav {
+    float: left;
+    background-color: white;
+    
+}
+.topbar nav a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+.topbar nav a:hover {
+    color: #000000;
+}
+ .social {
+    float: right;
+    ;
+  
+}
+.social a {
+    padding: 0 12px;
+    opacity: .5;
+}
+.social a:hover {
+    opacity: 1;
+}
+.banniere  {
+    height: 379px;
+    background: no-repeat center center / cover url("img/logo/cinema-en-plein-air\ 1.jpg")  ;
+}
+.main ul,a {
+    text-decoration: none;
+    list-style: none;
+}
+.main {
+    float: left;
+    background: #ffffff;
+    width: calc(100%-375px) ;
+   
+
+}
+.avatar  {
+   
+    width : 318 ;
+    height : auto; 
+    background :lightslategray;
+    color : #eceeef;
+   
+}
+.main p:first-child {
+    overflow: auto;
+}
+.main h2 {
+    font-family: sans-serif;
+    margin-left: 10px;
+
+}
+#firstname {
+    margin-left: 50px;
+    width: 445px;
+    vertical-align: top;
+}
+#lastname {
+    margin-left: 28px;
+    width: 445px;
+    vertical-align: top;
+}
+#phone {
+    margin-left: 10px;
+    width: 445px;
+    vertical-align: top;
+}
+#meet {
+    margin-left: 5px;
+    width: 445px;
+    vertical-align: top;
+}
+
+ #email {
+    margin-left: 40px;
+    width: 446px;
+    vertical-align: top;
+}
+#message {
+    width: 453px;
+    height: 149px;
+    margin-top: 8px;
+    margin-left: 10px;
+    vertical-align: top;
+
+    
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.sidebar div {
+    display: inline;
+    float: right;
+    background: lightgray;
+    width: 375px;
+    height: auto;
+}
+.footer {
+    clear: both;
+    background-color: grey;
+    
+}
+.footer p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+.article p {
+    
+    overflow: hidden;
+    margin: 50px 0;
+    margin-top: 5px;
+    padding-left: 10px;
+    
+  
+}
+.article-title{
+   font-family: sans-serif;
+   margin-bottom: 5px;
+   padding-left: 10px;
+   color:lightsalmon;
+
+}
+.article-entete {
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+.prog h4 {
+    padding-left: 20px;
+    font-family: sans-serif;
+    margin: 15px 0;
+    
+}
+.contact h4 {
+    padding-left: 20px;
+    font-family: sans-serif;
+    margin: 15px 0; 
+}
+.contact li{
+    color: white;
+}
+.sidebar a {
+    color:white;
+    text-decoration: none;
+   
+}
+.reserver a {
+    color:white;
+    text-decoration: none;
+}
+.reserver a:hover{
+    color: black;
+}
+.reserver ul {
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar a:hover {
+   color: black;
+}
+.sidebar ul {
+   
+    list-style: none;
+}
+.prog hr {
+    border-color: lightgray;
+    opacity: .3;
+}
+.main hr {
+    border-color: lightgray;
+    opacity: .3;
+}
+.avatar img {
+    float: right;
+    width: 318px;
+    height: auto;
+    
+}
+.avatar p {
+    padding: 5px;
+    position:static;
+    padding-top: 87px;
+}
+.eternal {
+    width : 318 ;
+    height : auto; 
+    background :lightslategray;
+    color : #eceeef;
+    overflow: hidden;
+}
+.eternal p {
+    padding: 5px;
+    position:static;
+    padding-top: 0;
+}
+.eternal img {
+    float: right;
+    width: 318px;
+    height: auto;
+}
+
+.imitation {
+    width : 318 ;
+    height : auto; 
+    background :lightslategray;
+    color : #eceeef;
+    overflow: hidden;
+}
+.imitation p {
+    padding: 5px;
+    position:static;
+    padding-top: 0;
+}
+.imitation img {
+    float: right;
+    width: 318px;
+    height: auto;
+}
+input[type=text],
+input[type=email],
+select,
+input[type=tel] {
+    overflow: hidden;
+    
+    padding: 12px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+
+input[type=tel]:focus {
+  background-color: lightblue;
+}
+  textarea:focus {
+    background-color: lightblue;
+  }
+  input[type=submit]:hover {
+    background-color: lightblue;
+  }
+  select:focus {
+    background-color: lightblue;
+  }
+  textarea {
+        
+    padding: 12px 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-family: sans-serif;
+  }
+  input[type=submit] {
+    overflow: hidden;
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .form label {
+     padding-top: 0;
+     padding-bottom: 0;
+     margin-left: 5px;
+     color: #ccc;
+  }
+  .check label {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 5px;
+    color: #ccc;
+  }
+  .reserver  {
+      float: right;
+      background:lightgrey;
+      display: grid;
+      height: auto;
+      padding-bottom:  50px;;
+      
+    
+  }
+  .prog {
+      float:inherit;
+  }
+
+    
+ .main button{
+     color: white;
+     background-color: gray;
+     border: none;
+     cursor: pointer;
+     
+     
+
+
+ }
+ .main button:hover {
+     background-color: lightblue;
+ }
