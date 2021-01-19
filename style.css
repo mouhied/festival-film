@@ -8,6 +8,8 @@ body {
     font-family: sans-serif;
     color: rgb(0,0, 0,.87);
     line-height: 1.6;
+ 
+    
     
 
 }
@@ -51,24 +53,84 @@ body {
     height: 379px;
     background: no-repeat center center / cover url("img/logo/cinema-en-plein-air\ 1.jpg")  ;
 }
+.avatar span {
+    color:gray;
+    background-color:white;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.eternal span {
+    color:gray;
+    background-color:white;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.imitation span {
+    color:gray;
+    background-color:white;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 .main ul,a {
     text-decoration: none;
     list-style: none;
+    
 }
+.list ul,a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    color:blue;
+}
+.list a:hover {
+    color: black;
+    cursor: pointer;;
+}
+.list h4 {
+    padding-left: 5px;
+}
+
+
 .main {
     float: left;
-    background: #ffffff;
     width: calc(100%-375px) ;
-   
+}
+.check {
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 20px;
+    
+
+}
+.form {
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 20px;
 
 }
 .avatar  {
    
     width : 318 ;
-    height : auto; 
+    display: inline-block;
     background :lightslategray;
     color : #eceeef;
    
+}
+.sys button {
+    background: gray;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.sys button {
+    padding-bottom: 2px;
 }
 .main p:first-child {
     overflow: auto;
@@ -78,31 +140,39 @@ body {
     margin-left: 10px;
 
 }
+.main h4 {
+    padding-left: 10px;
+}
 #firstname {
     margin-left: 50px;
     width: 445px;
     vertical-align: top;
+    padding-left: 5px;
 }
 #lastname {
     margin-left: 28px;
     width: 445px;
     vertical-align: top;
+    padding-left: 5px;
 }
 #phone {
     margin-left: 10px;
     width: 445px;
     vertical-align: top;
+    padding-left: 5px;
 }
 #meet {
     margin-left: 5px;
     width: 445px;
     vertical-align: top;
+    padding-left: 5px;
 }
 
  #email {
     margin-left: 40px;
     width: 446px;
     vertical-align: top;
+    padding-left: 5px;
 }
 #message {
     width: 453px;
@@ -127,7 +197,8 @@ body {
 }
 .footer {
     clear: both;
-    background-color: grey;
+    background-color: lightgrey;
+    margin-top: 200px;
     
 }
 .footer p {
@@ -162,7 +233,7 @@ body {
     
 }
 .contact h4 {
-    padding-left: 20px;
+    padding-left: 30px;
     font-family: sans-serif;
     margin: 15px 0; 
 }
@@ -251,7 +322,6 @@ input[type=email],
 select,
 input[type=tel] {
     overflow: hidden;
-    
     padding: 12px 5px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -337,11 +407,51 @@ input[type=tel]:focus {
      background-color: gray;
      border: none;
      cursor: pointer;
-     
-     
-
-
  }
  .main button:hover {
      background-color: lightblue;
  }
+ 
+ .sidebar {
+     width: 375px;
+     height: auto ;
+     float: right;
+     top: 0;
+ }
+ .list nav {
+     
+     font-family: sans-serif;
+     background-color: lightgray;
+     width: 20%;
+     margin-left: 10px;
+     border-radius: 4px;
+     
+ }
+
+ .list a {
+     color: white; 
+ }
+ .reser a:nth-of-type(2){
+     background-color: red;
+     border-radius: 3px;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding-left: 5px;
+     padding-right: 5px;
+
+
+ }
+ .haut a {
+     float: right;
+     margin-top: 50px;
+     color: lightgray;
+     background-color: gray;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 4px;
+
+ }
+ .haut a:hover {
+     color: blue;
+ }
+ 

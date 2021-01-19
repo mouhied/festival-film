@@ -9,10 +9,11 @@
     <body>
         <header  class="topbar">
                 <nav >
-                    <a href="index.html" title="Accueil">Accueil</a>
+                    <a href="#A propos" >Accueil</a>
                     <a href="Films.html" title="voir les films">Films</a>
-                    <a href="Réserver.html" title="réserver vos séances">Réservation</a>
-                    <a href="Contact.html" title="nous contactez"> Contact</a>
+                    <a href="#Réserver vos places"  >Réservation</a>
+                    <a href="#Nous envoyez un email"  > Contact</a>
+                    
                 </nav>
             <div class="social">
                 <a href="#" title="facebook"><img src="img\logo\facebook.png" title="facebook"></a>
@@ -23,17 +24,81 @@
                 
             </div>
             <main class="main">
-                <div class="container">
+                <div class="container" id="A propos">
                     <article class="article">
                             <h2 class="article-title">Les Films en Plein Air</h2>
                             <div class="article-entete">A propos</div>
                             <p>
-                                Créée en janvier 2020, l'association Films de Plein Air regroupe des passionnés de films d'auteur.
-                                Nous avons pour but de faire découvrir l'univers du cinéma d'auteur. C'est par ce biais que nous avons noué un partenariat avec la Mairie du 8ème arrondissement à Paris, qui nous met à disposition le parc Monceau à l'occasion du festival "Films de Plein Air" que nous développons.
-                                A partir de cette année, nous organisons des événements autour du cinéma d'auteur, des films d'arts et d'essai.
+                                Le Festival des Films de Plein Air est un festival gratuit pour tous qui se déroule du 5 au 8 aout en plein air, en soirée de 18h à minuit. Les projections sont des films d'auteur diversifiés. Vous pourrez trouver la liste de films de nos soirées et leur dates de projection sur notre page <a href="Films.html">Films</a>.
+
+                                La semaine du festival est rythmée par des projections quotidiennes de film d'auteur en plein air. Vous pourrez ensuite faire des rencontre avec d'autres passionnés de film et rencontrez nos invités durant le festival qui viendront présenter les film et lancer la discussion après.
+
+                                Nous allons aussi créer une compétition des films projetés et le jury sera vous! Nous allons vous permettre à la fin de chaque soirée, de donner votre avis et vote sur les films présents à notre festival. Cela sera le palmarès de prix par vous le public et permettra a certains films d'être présent aux prochains festival pour que le plus grand nombre découvre ces films excellents.
+
+                                Gratuit et ouvert à tous, nous vous donnons rendez-vous, vous amateurs de cinéma et amoureux des films d'auteur, mais aussi à tous ceux qui souhaitent découvrir des nouveaux films et découvrir cette ambiance conviviale qu'instaure le festival.
+                                
                             </p>
                     </article>
                 </div>
+                <div id="Réserver vos places">
+                    <h2 >Réserver vos places  </h2>
+                    <form action="#Réservation" class="check">
+                            <div>
+                                <label for="firstname">votre nom</label>
+                                <input type="text" required id="firstname" name="firstname">
+                            </div>
+                            <div>
+                                <label for="lastname">votre prenom</label>
+                                <input type="text" required id="lastname" name="lastname">
+                                </div>
+                            <div>
+                                <label for="email">votre email</label>
+                                <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+                            </div>
+                            <div>
+                                <label for="phone">votre télephone</label>
+                                <input type="tel" id="phone" name="phone"
+                                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Format: 123-456-7890">
+                            </div>
+                            <div>
+                                <label for="menu">choix de séance</label>
+                                <select name="meet" id="meet">
+                                    <option value="">--Veuillez choisir une séance--</option>
+                                    <option value="first">--De 18:00 à 20:00--</option>
+                                    <option value="second">--De 20:00 à 22:00--</option>
+                                    <option value="third">--De 22:00 à 00:00--</option>
+                                    
+                                </select>
+                            </div>
+                            <div>
+                            <input type="submit" value="Réserver">
+                        </div>
+                    </form>
+                </div> <br> <br><br><br>
+                    <div id="Nous envoyez un email">
+                     <h2>Nous envoyez un email </h2>
+                        <form action="Contact.html" class="form">
+                            <div>
+                                <label for="firstname">votre nom    </label>
+                                <input type="text" required id="firstname" name="firstname">
+                            </div>
+                            <div>
+                                <label for="email">votre email  </label>
+                                <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+                            </div>
+                            <div>
+                                <label for="message">votre message</label>
+                                <textarea name="message" id="message" required  placeholder="laissez nous un message"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="submit"> 
+                            </div>
+                        </form>
+                </div>
+                <p class="haut">
+                    <a href="#" title="rementé">Haut</a>
+                    
+                </p>
             </main>
             <aside class="sidebar">
                 <div class="prog">
@@ -68,16 +133,23 @@
                             75008 Paris
                         </li>
                         <li>
+                            <a href="https://www.google.fr/maps/place/Parc+Monceau/@48.8796835,2.3067663,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fbe98f714c3:0xe62425fddeddc402!8m2!3d48.8796835!4d2.308955" title="Map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737382034933!2d2.306766315630278!3d48.87968347928967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1610483857525!5m2!1sfr!2sfr" width="308" height="175" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+                            </a>
+                        </li>
+                        <li>
                             <a href="www.film-plein-air.org" title="4eme jour" target="_blank">Site web : www.film-plein-air.org </a>
                         </li>
                     </ul>
 
                 </div>
-
                 
             </aside>
+            
             <footer class="footer">
                 <p>Tous droits réservés © Les films de Plein Air 2020</p>
+            
             </footer>
         
     </body>
