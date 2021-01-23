@@ -678,13 +678,4 @@ width: 100%;
 opacity: 1
 	
     } 
-    .map h3 {
-        padding-left: 10px;
-    }
-    .map iframe {
-       width:1400px;
-       height: 379px;
-       padding-left: 30px;
-      display: grid;
-        
-    }
+    
