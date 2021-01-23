@@ -678,4 +678,12 @@ width: 100%;
 opacity: 1
 	
     } 
+.index h4 {
+    padding-left: 300px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    color:lightsalmon;
+
     
+}
