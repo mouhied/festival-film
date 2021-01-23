@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+    
+    </style>
     <head>
         <meta charset="UTF-8">
         <meta name="discription" content="Cinéma en plein air !">
-        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css\style.css" rel="stylesheet">
         <title>Les Films en Plein Air</title>
     </head>
     <body>
         <header  class="topbar">
                 <nav >
                     <a href="#A propos" >Accueil</a>
-                    <a href="Films.html" title="voir les films">Films</a>
-                    <a href="#Réserver vos places"  >Réservation</a>
+                    <a href="films.html" title="voir les films">Films</a>
+                    <a href="#reserver vos places"  >Réservation</a>
                     <a href="#Nous envoyez un email"  > Contact</a>
                     
                 </nav>
@@ -21,7 +24,7 @@
             </div>
         </header>
             <div class="banniere">
-                
+                <img src="img\logo\cinema-en-plein-air 1.jpg" alt="" width="1519" width="379">
             </div>
             <main class="main">
                 <div class="container" id="A propos">
@@ -40,13 +43,105 @@
                             </p>
                     </article>
                 </div>
-                <div id="Réserver vos places">
+                <div>
+                    <h4>Voici la liste de nos films projetés lors de notre festival et leur date de projection : </h4>
+                </div>
+                <div class="cadre-ex"></div>
+                <input type="radio" id="tout" name="diapo" checked>
+                <label for="tout">TOUT</label>
+                <input type="radio" id="fiveaout" name="diapo">
+                <label for="fiveaout">5 Aout</label>
+                <input type="radio" id="sixaout" name="diapo">
+                <label for="sixaout">6 Aout</label>
+                <input type="radio" id="sevenaout" name="diapo">
+                <label for="sevenaout">7 aout</label>
+                <input type="radio" id="eightaout" name="diapo">
+                <label for="eightaout">8 Aout</label>
+                <input type="radio" name="galerie" id="fermer">
+                <input type="radio" name="galerie" id="fenetre1" class="cache">
+                <input type="radio" name="galerie" id="fenetre2" class="cache">
+                <input type="radio" name="galerie" id="fenetre3" class="cache">
+                <input type="radio" name="galerie" id="fenetre4" class="cache">
+                <input type="radio" name="galerie" id="fenetre5" class="cache">
+                <input type="radio" name="galerie" id="fenetre6" class="cache">
+                <input type="radio" name="galerie" id="fenetre7" class="cache">
+                <input type="radio" name="galerie" id="fenetre8" class="cache">
+                <input type="radio" name="galerie" id="fenetre9" class="cache">
+                <input type="radio" name="galerie" id="fenetre10" class="cache">
+                <input type="radio" name="galerie" id="fenetre11" class="cache">
+                <input type="radio" name="galerie" id="fenetre12" class="cache">
+                <label for="fermer" class="sous-couche"></label>
+                <ul class="diaporama">
+                <li class="fiveaout">
+                <label for="fenetre1"><img height=200 width=300 src="img_slide/le 5/avatar.jpg" alt></label>
+                </li>
+                <li class="sevenaout">
+                <label for="fenetre2"><img height=200 width=300 src="img_slide\le 7\avant toi.jpg" alt></label>
+                </li>
+                <li class="sixaout">
+                <label for="fenetre3"><img height=200 width=300 src="img_slide\le 6\invictus.jpg" alt></label>
+                </li>
+                <li class="sevenaout">
+                <label for="fenetre4"><img height=200 width=300 src="img_slide\le 7\orgueil & préjugés.jpg" alt></label>
+                </li>
+                <li class="sevenaout">
+                <label for="fenetre6"><img height=200 width=300 src="img_slide\le 7\shutter island.jpg" alt></label>
+                </li>
+                <li class="sixaout">
+                <label for="fenetre7"><img height=200 width=300 src="img_slide\le 6\la la land.jpg" alt></label>
+                </li>
+                <li class="eightaout">
+                <label for="fenetre12"><img height=200 width=300 src="img_rezise\Le 8\valerian.jpg" alt></label>
+                </li>
+                <li class="fiveaout">
+                <label for="fenetre8"><img height=200 width=300 src="img_slide\le 5\imitation game.jpg" alt></label>
+                </li>
+                <li class="sixaout">
+                <label for="fenetre9"><img height=200 width=300 src="img_rezise\Le 6\Minuit a paris.jpg" alt></label>
+                </li>
+                <li class="eightaout">
+                <label for="fenetre10"><img height=200 width=300 src="img_rezise\Le 8\the greatest showman.jpg" alt></label>
+                </li>
+                <li class="eightaout">
+                <label for="fenetre11"><img height=200 width=300 src="img_rezise\Le 8\titanic.jpg" alt></label>
+                </li>
+                <li class="fiveaout">
+                <label for="fenetre5"><img height=200 width=300 src="img_slide\le 5\eternel sunshine.jpg" alt></label>
+                </li>
+                </ul>
+                <div class="fenetre fenetre1"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide/le 5/avatar.jpg"></div>
+                <div class="fenetre fenetre2"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 7\avant toi.jpg"></div>
+                <div class="fenetre fenetre3"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 6\invictus.jpg"></div>
+                <div class="fenetre fenetre4"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 7\orgueil & préjugés.jpg"></div>
+                <div class="fenetre fenetre5"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 5\eternel sunshine.jpg"></div>   
+                <div class="fenetre fenetre6"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 7\shutter island.jpg"></div>    
+                <div class="fenetre fenetre7"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 6\la la land.jpg"></div>    
+                <div class="fenetre fenetre8"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_slide\le 5\imitation game.jpg"></div>    
+                <div class="fenetre fenetre9"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_rezise\Le 6\Minuit a paris.jpg"></div> 
+                <div class="fenetre fenetre10"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                   <img alt src="img_rezise\Le 8\the greatest showman.jpg"></div> 
+                <div class="fenetre fenetre11"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                    <img alt src="img_rezise\Le 8\titanic.jpg"></div> 
+                <div class="fenetre fenetre12"><label for="fermer" class="fermer"><svg height="40" width="40" viewBox="0 0 50 50"><circle cx="25" cy="25" r="22.5" stroke="#7A5FFF" stroke-width="5" fill="none"/><path fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M16 34l9-9 9-9M16 16l9 9 9 9"/></svg></label>
+                    <img alt src="img_rezise\Le 8\valerian.jpg"></div>
+                
+               
+                <div id="reserver vos places">
                     <h2 >Réserver vos places  </h2>
-                    <form action="#Réservation" class="check">
+                    <form action="#reservation" class="check">
                             <div>
                                 <label for="firstname">votre nom</label>
                                 <input type="text" required id="firstname" name="firstname">
-                            </div>
+                            </div>    
                             <div>
                                 <label for="lastname">votre prenom</label>
                                 <input type="text" required id="lastname" name="lastname">
@@ -100,56 +195,18 @@
                     
                 </p>
             </main>
-            <aside class="sidebar">
-                <div class="prog">
-                    <h4>Nos Projections</h4>
-                            <ul>
-                                <li>
-                                    <a href="Films.html" title="1ere jour">Programme du 5 aout</a>
-                                </li>
-                                <li>
-                                    <a href="Films.html" title="2eme jour">Programme du 6 aout</a>
-                                </li>
-                                <li>
-                                    <a href="Films.html" title="3eme jour">Programme du 7 aout</a>
-                                </li>
-                                <li>
-                                    <a href="Films.html" title="4eme jour">Programme du 8 aout</a>
-                                </li>
-                            </ul>
-                            <hr>
-                </div>
-                
-                <div class="contact">
-                    <h4>ou nous trouvez</h4>
-                    <ul>
-                        <li>
-                            Lieu des projections : Parc Monceau 
-                        </li>
-                        <li>
-                            Address : 35 Boulevard de Courcelles
-                        </li>
-                        <li>
-                            75008 Paris
-                        </li>
-                        <li>
-                            <a href="https://www.google.fr/maps/place/Parc+Monceau/@48.8796835,2.3067663,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fbe98f714c3:0xe62425fddeddc402!8m2!3d48.8796835!4d2.308955" title="Map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8737382034933!2d2.306766315630278!3d48.87968347928967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1610483857525!5m2!1sfr!2sfr" width="308" height="175" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    
-                            </a>
-                        </li>
-                        <li>
-                            <a href="www.film-plein-air.org" title="4eme jour" target="_blank">Site web : www.film-plein-air.org </a>
-                        </li>
-                    </ul>
-
-                </div>
-                
-            </aside>
+            
             
             <footer class="footer">
-                <p>Tous droits réservés © Les films de Plein Air 2020</p>
             
+                    <p> cette maquette est un exercice réalisé dans le cadre d’une formation chez <strong> OpenClassrooms</strong>. Tout est donc fictif et n’a aucune visée commerciale</p>
+                    <span>Tous droits réservés © Les films de Plein Air 2020</span>
+                    <span>
+                    <a href="#" title="facebook"><img src="img\logo\facebook.png" title="facebook"></a>
+                    <a href="#" title="twitter"><img src="img\logo\twitter.png" title="twitter"></a>
+                    </span>
+                
+
             </footer>
         
     </body>
