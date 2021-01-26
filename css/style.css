@@ -22,6 +22,7 @@ body {
     width: 100%;
     background: white;
     padding: 30px; 
+    z-index: 100;
 
 }
 .topbar nav {
@@ -51,6 +52,8 @@ body {
     opacity: 1;
 }
 .banniere img  {
+    display: flex;
+    flex-direction: column;
     height: 379px;
     background: no-repeat center center / cover url("C:\Users\33753\Documents\Formation\Projet_3\Les Films en Plein Air\img\logo\cinema-en-plein-air 1.jpg")  ;
 }
@@ -96,6 +99,7 @@ body {
     background:blue;
     margin-left: 200px;
     margin-right: 200px;
+    align-items: flex-start;
   
 }
 .footer span {
@@ -229,11 +233,13 @@ footer a:hover {
 .footer {
     clear: both;
     background-color:darkgray;
-    margin-top: 200px;
+    margin-top: auto;
+    flex: none;
     
 }
 
 .article p {  
+    
     margin-top: 5px;
     padding-left: 10px;
 }
