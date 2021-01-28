@@ -52,10 +52,11 @@ body {
     opacity: 1;
 }
 .banniere img  {
-    display: flex;
-    flex-direction: column;
-    height: 379px;
-    background: no-repeat center center / cover url("C:\Users\33753\Documents\Formation\Projet_3\Les Films en Plein Air\img\logo\cinema-en-plein-air 1.jpg")  ;
+   display: flex;
+   
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
 }
 .avatar span {
     color:gray;
@@ -137,16 +138,19 @@ footer a:hover {
     width: calc(100%-375px) ;
 }
 .check {
-    background-color: gray;
-    border-radius: 4px;
+    background-color:cadetblue;
+    padding: 3rem;
     margin-left: 20px;
+    margin-right: 50px;
     
 
 }
 .form {
-    background-color: gray;
+    background-color: cadetblue;
+    padding: 3rem;
     border-radius: 4px;
     margin-left: 20px;
+    margin-right: 50px;
 
 }
 .avatar  {
@@ -179,6 +183,7 @@ footer a:hover {
     padding-left: 10px;
 }
 #firstname {
+    
     margin-left: 50px;
     width: 445px;
     vertical-align: top;
@@ -232,7 +237,7 @@ footer a:hover {
 }
 .footer {
     clear: both;
-    background-color:darkgray;
+    background-color:cadetblue;
     margin-top: auto;
     flex: none;
     
@@ -388,18 +393,19 @@ input[type=tel]:focus {
     font-family: sans-serif;
   }
   input[type=submit] {
-    overflow: hidden;
-    background-color: gray;
-    color: white;
+    
+    background-color: white;
+    color: black;
     padding: 12px 20px;
-    margin-left: 10px;
+    margin-left: 135px;
     margin-top: 50px;
     margin-bottom: 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: left;
-    
+    width: 453px;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   label {
     padding: 12px 12px 12px 0;
@@ -410,13 +416,19 @@ input[type=tel]:focus {
      padding-top: 0;
      padding-bottom: 0;
      margin-left: 5px;
-     color: #ccc;
+     color:black;
   }
   .check label {
     padding-top: 0;
     padding-bottom: 0;
     margin-left: 5px;
-    color: #ccc;
+    color: black;
+  }
+  .head h2{
+      color: cadetblue;
+  }
+  .form-title {
+      color: cadetblue;
   }
   .reserver  {
       float: right;
@@ -473,15 +485,14 @@ input[type=tel]:focus {
      text-align: center;
 
  }
- .reser a:hover{
-     color: red;
- }
+ 
  .haut a {
-     float: right;
+     float: left;
      margin-top: 50px;
+     margin-bottom: 10px;
      color: lightgray;
      background-color: gray;
-     padding-left: 10px;
+     margin-left: 10px;
      padding-right: 10px;
      border-radius: 4px;
 
@@ -557,6 +568,8 @@ opacity: 1;
 .diaporama li img{
 	
 border: 5px solid #ccc;
+height: 200px;
+object-fit: cover;
 		
 }
 	
